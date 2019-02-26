@@ -13,7 +13,9 @@ If a new kernel adds more frequency governors, you should be able to add support
 
 Examples of use:
 
-get directions: `cpufreq.sh -h` , `powersave --help`
+get directions: `cpufreq.sh -h`
+
+get those same directions another way: `powersave --help`
 
 set governor to "performance" : `sudo performance`
 
@@ -21,4 +23,4 @@ set cpu frequency to 3 GHz (if available): `sudo userspace 3000000`
 
 list available governors: `cpufreq.sh --list-gov`
 
-list available frequencies: `cpufreq.sh --list-freq`
+list available frequencies: `userspace --list-freq`
