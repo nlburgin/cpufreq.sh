@@ -7,6 +7,7 @@ Because it uses sysfs directly, this script should remain usable forever without
 Installing: just download install.sh and cpufreq.sh to the same directory, then make the former executable and run it with admin privilege:
 
 `chmod +x install.sh`
+
 `sudo ./install.sh`
 
 Don't just copy the main script into your /usr/local/bin without running the installer, unless for some reason you want to manually set up the symlinks for the multicall functionality yourself.
