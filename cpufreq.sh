@@ -12,7 +12,8 @@ to set those governors.\n
 \n
 a list of governors can be got by calling with --list-gov\n
 \n
-If called as "userspace", an argument is accepted to the value in hz\n
+If called as "userspace", an argument is accepted to set the clock rate\n 
+(measured in KHz because that is what the kernel uses and I am too lazy to scale it)\n
 \n
 for example `userspace 3000000` sets to 3Ghz\n
 \n
