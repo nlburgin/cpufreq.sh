@@ -28,3 +28,9 @@ set cpu frequency to 3 GHz (if available):	`sudo userspace 3000000`
 list available governors:										`cpufreq.sh --list-gov`
 
 list available frequencies:									`userspace --list-freq`
+
+
+DISCLAIMERS:
+
+* This has absolutely no warranty whatsoever. Use at your own risk.
+* This assumes that all CPUs/cores are identical in capability, and that you want to set them all to the same value. If this assumption doesn't hold on you end, this script might not be sufficient for you.
