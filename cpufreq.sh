@@ -16,7 +16,7 @@ If called as "userspace", an argument is accepted to the value in hz\n
 \n
 for example `userspace 3000000` sets to 3Ghz\n
 \n
-you can see the allow frequencies with --list-freq\n
+you can see the allowed frequencies with --list-freq\n
 \n
 and the current frequency with --cur-freq\n
 \n
