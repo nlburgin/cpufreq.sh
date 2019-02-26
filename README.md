@@ -33,4 +33,4 @@ list available frequencies:									`userspace --list-freq`
 DISCLAIMERS:
 
 * This has absolutely no warranty whatsoever. Use at your own risk.
-* This script assumes that all of the CPUs/cores on the system are identical in capability, and that you want to set them all to the exact same settings. If this assumption doesn't hold on you end, this script might not be sufficient for you.
+* This script assumes that all of the CPUs/cores on the system are identical in capability, and that you want to set them all to the exact same settings. If this assumption doesn't hold on your end, this script might not be sufficient for you.
