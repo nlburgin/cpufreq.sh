@@ -9,6 +9,8 @@ Installing: just download install.sh and cpufreq.sh to the same directory, then 
 `chmod +x install.sh`
 `sudo ./install.sh`
 
+Don't just copy the main script into your /usr/local/bin without running the installer, unless for some reason you want to manually set up the symlinks for the multicall functionality yourself.
+
 If a new kernel adds more frequency governors, you should be able to add support automatically just by running the installer again.
 
 Examples of use:
