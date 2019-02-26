@@ -21,6 +21,8 @@ get those same directions another way:			`powersave --help`
 
 set governor to "performance" :							`sudo performance`
 
+set governor to "schedutil" :							  `sudo schedutil`
+
 set cpu frequency to 3 GHz (if available):	`sudo userspace 3000000`
 
 list available governors:										`cpufreq.sh --list-gov`
